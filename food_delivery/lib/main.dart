@@ -15,7 +15,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Food Delivery',
       theme: ThemeData(
-          primarySwatch: primary, scaffoldBackgroundColor: Colors.grey[50]),
+        scaffoldBackgroundColor: Colors.grey[50],
+        primaryColor: Colors.deepOrangeAccent,
+      ),
       home: HomeScreen(),
     );
   }
