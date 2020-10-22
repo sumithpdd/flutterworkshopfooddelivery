@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_delivery/data/data.dart';
 import 'package:food_delivery/helpers/style.dart';
 import 'package:food_delivery/models/restaurant.dart';
+import 'package:food_delivery/widgets/custom_drawer.dart';
 import 'package:food_delivery/widgets/rating_stars.dart';
 import 'package:food_delivery/widgets/recent_orders.dart';
 import 'cart_Screen.dart';
@@ -98,11 +99,6 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(
-          icon: Icon(Icons.account_circle),
-          iconSize: 30.0,
-          onPressed: null,
-        ),
         title: Text('Food Delivery'),
         actions: [
           FlatButton(
@@ -120,6 +116,7 @@ class _HomeScreenState extends State<HomeScreen> {
           )
         ],
       ),
+      drawer: CustomDrawer(),
       body: ListView(
         children: [
           Padding(
