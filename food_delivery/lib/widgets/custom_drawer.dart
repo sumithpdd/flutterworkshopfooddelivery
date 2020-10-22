@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery/data/data.dart';
 import 'package:food_delivery/screens/home_screen.dart';
+import 'package:food_delivery/screens/login_screen.dart';
 
 class CustomDrawer extends StatelessWidget {
   _buildDrawerOption(Icon icon, String title, Function onTap) {
@@ -126,7 +127,7 @@ class CustomDrawer extends StatelessWidget {
               () => Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
-                  builder: (_) => HomeScreen(),
+                  builder: (_) => LoginScreen(),
                 ),
               ),
             ),
