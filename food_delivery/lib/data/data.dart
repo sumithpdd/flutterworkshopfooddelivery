@@ -68,10 +68,9 @@ final List<Restaurant> restaurants = [
 
 // User
 final currentUser = User(
-  profileImageUrl: 'assets/images/user.jpg',
-  isLoggedIn: false,
-  name: 'Sam',
-  orders: [
+  'Sam',
+  'assets/images/user.jpg',
+  [
     Order(
       date: 'Oct 20, 2020',
       food: _steak,
@@ -103,7 +102,7 @@ final currentUser = User(
       quantity: 1,
     ),
   ],
-  cart: [
+  [
     Order(
       date: 'Oct 11, 2020',
       food: _burger,
