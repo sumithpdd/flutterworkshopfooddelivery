@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_delivery/data/data.dart';
 import 'package:food_delivery/helpers/style.dart';
 import 'package:food_delivery/models/restaurant.dart';
-import 'package:food_delivery/providers/restaurant.dart';
+import 'package:food_delivery/providers/restaurant_provider.dart';
 import 'package:food_delivery/widgets/custom_drawer.dart';
 import 'package:food_delivery/widgets/rating_stars.dart';
 import 'package:food_delivery/widgets/recent_orders.dart';

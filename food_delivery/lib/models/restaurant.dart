@@ -51,9 +51,17 @@ class Restaurant {
     _address = map[ADDRESS];
     _imageUrl = map[IMAGEURL];
     _popular = map[POPULAR];
-    _menu = map[MENU] ?? [];
+    _menu = _convertFoodItems(map[MENU] ?? []);
   }
 
   Restaurant.fromSnapshot(DocumentSnapshot snapshot)
       : this.fromMap(snapshot.data());
+
+  List<Food> _convertFoodItems(List food) {
+    List<Food> convertedFood = [];
+    for (Map foodItem in food) {
+      convertedFood.add(Food.fromMap(foodItem));
+    }
+    return convertedFood;
+  }
 }

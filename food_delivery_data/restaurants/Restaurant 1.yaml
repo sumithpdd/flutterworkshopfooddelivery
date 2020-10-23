@@ -4,4 +4,38 @@ rating: 5
 averagePrice: 6.99
 popular: true
 name: 'Restaurant 1'
+
+menu:
+    -
+        name: Burrito
+        price: 8.99
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/fooddelivery-e760e.appspot.com/o/burrito.jpg?alt=media&token=839835f6-ec23-45d4-9056-a1f24c64f15f'
+    -
+        name: Steak
+        price: 17.99
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/fooddelivery-e760e.appspot.com/o/steak.jpg?alt=media&token=c2c91810-676a-4116-a026-bc2a728d966a'
+    -
+        name: Pasta
+        price: 14.99
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/fooddelivery-e760e.appspot.com/o/pasta.jpg?alt=media&token=8d8bef09-07a2-40ee-aee4-cee87f8fc696'
+    -
+        name: Ramen
+        price: 13.99
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/fooddelivery-e760e.appspot.com/o/ramen.jpg?alt=media&token=e1ec4119-3ac9-450c-bbb7-deb1354ee62e'
+    -
+        name: Pancakes
+        price: 9.99
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/fooddelivery-e760e.appspot.com/o/pancakes.jpg?alt=media&token=7c2503bb-c63d-4a84-811c-91793e2edb6e'
+    -
+        name: Burger
+        price: 14.99
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/fooddelivery-e760e.appspot.com/o/burger.jpg?alt=media&token=f40fade5-d74c-4528-9098-5fed8a5f6721'
+    -
+        name: Pizza
+        price: 11.99
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/fooddelivery-e760e.appspot.com/o/pizza.jpg?alt=media&token=2a8d40ff-8bd1-4d4b-9f9c-599a9b747ae4'
+    -
+        name: 'Salmon Salad'
+        price: 12.99
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/fooddelivery-e760e.appspot.com/o/salmon.jpg?alt=media&token=5cc41c2f-dacd-4d31-9c54-23a2e3c26452'
 address: '200 Main St, New York, NY'

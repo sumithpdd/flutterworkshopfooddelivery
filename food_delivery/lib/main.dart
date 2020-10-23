@@ -4,7 +4,7 @@ import 'package:food_delivery/providers/auth_provider.dart';
 import 'package:food_delivery/screens/home_screen.dart';
 import 'package:provider/provider.dart';
 
-import 'providers/restaurant.dart';
+import 'providers/restaurant_provider.dart';
 import 'screens/login_screen.dart';
 import 'widgets/loading.dart';
 
