@@ -23,39 +23,39 @@ final _salmon = Food(
 
 // Restaurants
 final _restaurant0 = Restaurant(
-  imageUrl: 'assets/images/restaurant0.jpg',
-  name: 'Restaurant 0',
-  address: '200 Main St, New York, NY',
-  rating: 5,
-  menu: [_burrito, _steak, _pasta, _ramen, _pancakes, _burger, _pizza, _salmon],
+  'assets/images/restaurant0.jpg',
+  'Restaurant 0',
+  '200 Main St, New York, NY',
+  5,
+  [_burrito, _steak, _pasta, _ramen, _pancakes, _burger, _pizza, _salmon],
 );
 final _restaurant1 = Restaurant(
-  imageUrl: 'assets/images/restaurant1.jpg',
-  name: 'Restaurant 1',
-  address: '200 Main St, New York, NY',
-  rating: 4,
-  menu: [_steak, _pasta, _ramen, _pancakes, _burger, _pizza],
+  'assets/images/restaurant1.jpg',
+  'Restaurant 1',
+  '200 Main St, New York, NY',
+  4,
+  [_steak, _pasta, _ramen, _pancakes, _burger, _pizza],
 );
 final _restaurant2 = Restaurant(
-  imageUrl: 'assets/images/restaurant2.jpg',
-  name: 'Restaurant 2',
-  address: '200 Main St, New York, NY',
-  rating: 4,
-  menu: [_steak, _pasta, _pancakes, _burger, _pizza, _salmon],
+  'assets/images/restaurant2.jpg',
+  'Restaurant 2',
+  '200 Main St, New York, NY',
+  4,
+  [_steak, _pasta, _pancakes, _burger, _pizza, _salmon],
 );
 final _restaurant3 = Restaurant(
-  imageUrl: 'assets/images/restaurant3.jpg',
-  name: 'Restaurant 3',
-  address: '200 Main St, New York, NY',
-  rating: 2,
-  menu: [_burrito, _steak, _burger, _pizza, _salmon],
+  'assets/images/restaurant3.jpg',
+  'Restaurant 3',
+  '200 Main St, New York, NY',
+  2,
+  [_burrito, _steak, _burger, _pizza, _salmon],
 );
 final _restaurant4 = Restaurant(
-  imageUrl: 'assets/images/restaurant4.jpg',
-  name: 'Restaurant 4',
-  address: '200 Main St, New York, NY',
-  rating: 3,
-  menu: [_burrito, _ramen, _pancakes, _salmon],
+  'assets/images/restaurant4.jpg',
+  'Restaurant 4',
+  '200 Main St, New York, NY',
+  3,
+  [_burrito, _ramen, _pancakes, _salmon],
 );
 
 final List<Restaurant> restaurants = [

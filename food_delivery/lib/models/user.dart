@@ -21,11 +21,16 @@ class User {
   String get id => _id;
   String get profileImageUrl => _profileImageUrl;
   User(
-    this._name,
-    this._profileImageUrl,
-    this.orders,
-    this.cart,
-  );
+    name,
+    profileImageUrl,
+    orders,
+    cart,
+  ) {
+    this._name = name;
+    this._profileImageUrl = profileImageUrl;
+    this.orders = orders;
+    this.cart = cart;
+  }
   User.fromMap(Map<String, dynamic> map) {
     _name = map[NAME];
     _email = map[EMAIL];

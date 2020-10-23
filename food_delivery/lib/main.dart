@@ -4,6 +4,7 @@ import 'package:food_delivery/providers/auth_provider.dart';
 import 'package:food_delivery/screens/home_screen.dart';
 import 'package:provider/provider.dart';
 
+import 'providers/restaurant.dart';
 import 'screens/login_screen.dart';
 import 'widgets/loading.dart';
 
@@ -12,7 +13,8 @@ Future<void> main() async {
   await Firebase.initializeApp();
   runApp(MultiProvider(
       providers: [
-        ChangeNotifierProvider.value(value: AuthProvider.initialize())
+        ChangeNotifierProvider.value(value: AuthProvider.initialize()),
+        ChangeNotifierProvider.value(value: RestaurantProvider.initialize()),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,

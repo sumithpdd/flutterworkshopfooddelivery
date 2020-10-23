@@ -1,0 +1,7 @@
+Id: '4'
+name: 'Pancake King'
+averagePrice: 5.99
+rating: 4
+imageurl: 'https://firebasestorage.googleapis.com/v0/b/fooddelivery-e760e.appspot.com/o/food.jpg?alt=media&token=46ff690d-1919-482b-a68f-f3b301773f27'
+popular: true
+address: '200 Main St, New York, NY'
